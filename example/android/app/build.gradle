@@ -25,9 +25,8 @@ apply plugin: 'com.android.application'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
-    namespace "com.tablemi.flutter_bluetooth_plus_example"
+    namespace = "com.tablemi.flutter_bluetooth_plus_example"
     compileSdkVersion 28
-
     lintOptions {
         disable 'InvalidPackage'
     }
