@@ -37,4 +37,6 @@ android {
 
 dependencies {
     implementation files('libs/gprintersdkv2.jar')
+    implementation 'androidx.core:core-ktx:1.6.0'  
 }
+
